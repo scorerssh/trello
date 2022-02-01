@@ -46,3 +46,11 @@ function post()
         method:'DELETE'
     })
  }
+
+ function productDisplay()
+ {
+    
+ }
+ 
+
+ 
