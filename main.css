@@ -1,0 +1,74 @@
+body
+{
+    background: linear-gradient(54deg, #383838, #457b6e, #05231c);
+    background-size: 1000% 600%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+
+#submitbutton
+{
+    animation-name: button;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button
+{
+    0%{background-color:white}
+    50%{background-color: salmon;}
+    100%{background-color: white;}
+}
+#Informations{
+    border:2px solid black;
+    
+    color:wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    
+}
+
+h1
+{
+    color:whitesmoke;
+}
+
+p
+{
+    padding-top:10px;
+    color:black;
+    font-weight: 700;
+    -webkit-text-stroke: 0.2px white;
+    font-family: arial; color: green;
+}
+
+.divforblack
+{
+    height:35px;
+    color:white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
